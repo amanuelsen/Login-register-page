@@ -271,4 +271,13 @@ header {
     height:250px ;
     opacity: 1;
   }
+  .wrapper{
+    height: 350px;
+    width: 350px;
+  }
+  .wrapper.active{
+    height:450px ;
+    width: 330px;
+  }
 }
+
