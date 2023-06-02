@@ -5,6 +5,8 @@ const registeLink = document.querySelector(".register-link")
 const btnPopup = document.querySelector(".btnLogin-popup")
 const IconClose = document.querySelector(".icon-close", "closee")
 
+const hamburger = document.querySelector(".hamburger");
+const navigation = document.querySelector(".navigation");
 
 
 registeLink.addEventListener("click", ()=> {
@@ -19,6 +21,10 @@ btnPopup.addEventListener("click", ()=> {
 })
 IconClose.addEventListener("click", ()=> {
     wrapper.classList.remove("active-popup")
+})
+hamburger.addEventListener("click", ()=>{
+    navigation.classList.toggle("bar")
+
 })
 
 
