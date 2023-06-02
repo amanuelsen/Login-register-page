@@ -3,7 +3,7 @@
 const loginLink = document.querySelector(".login-link")
 const registeLink = document.querySelector(".register-link")
 const btnPopup = document.querySelector(".btnLogin-popup")
-const IconClose = document.getElementById("icon-close")
+const IconClose = document.querySelector(".icon-close", "closee")
 
 
 
@@ -16,6 +16,9 @@ loginLink.addEventListener("click", ()=> {
 
 btnPopup.addEventListener("click", ()=> {
     wrapper.classList.add("active-popup")
+})
+IconClose.addEventListener("click", ()=> {
+    wrapper.classList.remove("active-popup")
 })
 
 

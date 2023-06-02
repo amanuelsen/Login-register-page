@@ -19,7 +19,7 @@ body {
 header {
   position: fixed;
   top: 0;
-
+background-color: #162938;
   left: 0;
   width: 100%;
   padding: 20px 100px;
@@ -142,6 +142,7 @@ transform: translateX(-400px);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 99;
 
 
 }
@@ -241,3 +242,11 @@ transform: translateX(-400px);
 .login-register p a:hover{
     text-decoration: underline;
 }
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+ 
+  }
+  
